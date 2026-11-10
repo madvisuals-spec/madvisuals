@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="MAD VISUALS — photography, graphic design, automotive films, brand promotions and event edits.">
+  <title>MAD VISUALS® — Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/projects.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <nav class="nav">
+    <a class="brand" href="#top"><span class="brand-mark">M</span><span>MAD VISUALS<small>INDEPENDENT CREATIVE STUDIO</small></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#contact" class="nav-cta">Let’s talk ↗</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero wrap">
+      <div class="eyebrow"><span></span> Independent visual creator · Tumkur, India</div>
+      <h1>MAD<br><em>VISUALS<span>.</span></em></h1>
+      <div class="hero-bottom">
+        <div class="hero-copy">
+          <p>Visual stories shaped through <strong>photography, design and motion.</strong> From machines and moments to brands with something to say.</p>
+          <div class="actions"><a class="button primary" href="#work">Explore the work ↗</a><a class="button" href="#contact">Start a project ↗</a></div>
+        </div>
+        <div class="hero-aside"><span>FRAME / FEELING / FINISH</span><p>Every frame has a purpose. Every cut has a rhythm.</p></div>
+      </div>
+      <div class="scroll-cue">Scroll to explore</div>
+    </header>
+
+    <div class="marquee"><div class="marquee-track">
+      <span>Photography <b>✳</b></span><span>Graphic design <b>✳</b></span><span>Automotive <b>✳</b></span><span>Brand promotions <b>✳</b></span><span>Event edits <b>✳</b></span><span>Photography <b>✳</b></span><span>Graphic design <b>✳</b></span><span>Automotive <b>✳</b></span><span>Brand promotions <b>✳</b></span><span>Event edits <b>✳</b></span>
+    </div></div>
+
+    <section id="work" class="wrap work-section">
+      <div class="section-head">
+        <div class="section-index">01 / Selected work</div>
+        <div><h2>Made to<br>make you <em>look.</em></h2><p class="section-note">A selection of images, identities and moving stories.</p></div>
+      </div>
+      <div class="filter-bar" id="filters" aria-label="Filter portfolio projects">
+        <button class="filter active" data-filter="all">All work <span>00</span></button>
+        <button class="filter" data-filter="photography">Photography</button>
+        <button class="filter" data-filter="graphic-design">Graphic design</button>
+        <button class="filter" data-filter="car-bike-delivery">Car / bike delivery</button>
+        <button class="filter" data-filter="brand-promotions">Brand promotions</button>
+        <button class="filter" data-filter="automotive">Automotive</button>
+        <button class="filter" data-filter="event-edits">Event edits</button>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      <p class="gallery-note">YOUR WORK GOES HERE — replace the sample file paths in <code>js/projects.js</code> with your own filenames.</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="section-index">02 / The creator</div>
+          <div><h2>Visuals with<br><em>intent.</em></h2></div>
+        </div>
+        <div class="about-grid">
+          <p class="about-statement">I’m Madan — a visual creator exploring the space between <em>machines, movement</em> and emotion.</p>
+          <div class="about-copy"><p>Based in Tumkur, Karnataka, MAD VISUALS works across photography, graphic design, automotive content, brand promotions and event films.</p><p>Each project is approached with an eye for composition, rhythm and detail — keeping the final result intentional, immersive and clean.</p><span class="location">● &nbsp; TUMKUR, KARNATAKA · AVAILABLE FOR PROJECTS</span></div>
+        </div>
+        <div class="toolkit"><span>CREATIVE TOOLKIT</span><div>DaVinci Resolve <i>·</i> Photoshop <i>·</i> Lightroom <i>·</i> Premiere Pro <i>·</i> After Effects</div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact wrap">
+      <div class="eyebrow">03 / Contact</div>
+      <h2>Have a story?<br><em>Let’s create it.</em></h2>
+      <p>For collaborations, shoots, edits and creative projects.</p>
+      <div class="actions centered">
+        <a class="button primary" href="https://instagram.com/mad.visuals_" target="_blank" rel="noopener">Instagram ↗</a>
+        <a class="button" href="https://youtube.com/@madvisualsofficial" target="_blank" rel="noopener">YouTube ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><strong>MAD VISUALS<span>®</span></strong><small>© <span id="year"></span> · TUMKUR, KARNATAKA</small><a href="#top">BACK TO TOP ↑</a></div></footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-content" id="lightbox-content"></div>
+  </dialog>
+</body>
+</html>
